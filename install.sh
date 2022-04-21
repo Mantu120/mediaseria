@@ -85,18 +85,12 @@ read -p " Choose any Number [1-3]:" option
 
 case "$option" in
 1)
-    rclone
-    mount
     plex
     ;;
 2)
-    rclone
-    mount
     emby
     ;;
 3)
-    rclone
-    mount
     jellyfin	
     ;;	
 69)
